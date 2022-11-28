@@ -1,0 +1,69 @@
+.blok1{
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    color: white;
+}
+
+.napis h1{
+    align-items: flex-end;
+}
+.filmy{
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    background-color: #B0BEC5;
+    justify-content: flex-start;
+}
+.filmy p{
+    text-align: center;
+}
+.filmy img{
+    margin-left:20px ;
+}
+.polecamy{
+    background-color: #546E7A;
+    padding: 0px;
+
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.kategorie{
+    display: flex;
+    background-color: #29434E;
+    color: white;
+    width: 30%;    
+    height: 70px;
+
+}
+.blok1 .napis{
+    width: 70%;
+    height: 70px;
+    text-align: center;
+    background-color: #29434E;
+}
+
+.liczby{
+    display: flex;
+}
+.polecamy h3{
+    color: white;
+}
+.footer{
+    background-color: #29434E;
+
+}
+form{
+    display: flex;
+
+}
+
+h3{
+    background-color: #546E7A;
+    padding: 0;
+}
+
